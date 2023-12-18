@@ -10,7 +10,8 @@ int main(){
     Doubles x_data = {1.0, 2.0, 3.0, 4.0, 5.0};
     Doubles y_data = {2.0, 4.0, 6.0, 8.0, 10.0};
 
-    double a, b, alpha, epoch;
+    double a = 1.0, b = 2.0, alpha = 0.01;
+    int epoch = 10;
 
     SimpleLinearRegression slr(a, b, alpha, epoch);
 

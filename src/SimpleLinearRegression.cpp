@@ -32,5 +32,7 @@ SimpleLinearRegression::~SimpleLinearRegression(){}
 // }
 
 double SimpleLinearRegression::predict(double x){
-    return a + b * (x - x_mean);
+    double res = a + b * (x - x_mean);
+    std::cout << "a: " << a << ", b: " << b << ", res: " << res << std::endl;
+    return res;
 }
